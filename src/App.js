@@ -5,7 +5,7 @@ import Normal from './normal_calculator';
 import Home from './home';
 import Nopage from './nopage';
 import Scientific from './scientific';
-import Standard from './standard';
+ 
 
 
 
@@ -19,8 +19,7 @@ const App = () => {
                         <Route index element={<Home />} />
                         <Route path="/about1" element={<About />} />
                         <Route path="/normal" element={<Normal />} />
-                        <Route path="/scientific" element={<Scientific />} />
-                        <Route path="/standard" element={<Standard />} />
+                        <Route path="/scientific" element={<Scientific />} />                
                         <Route path="*" element={<Nopage />} />
                     </Route>
                 </Routes>

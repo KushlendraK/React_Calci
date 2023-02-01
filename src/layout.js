@@ -4,7 +4,7 @@ const Layout = () => {
     return (
         <>
             <div class="container" id="body-bg"  >
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark  my-3" id="nav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light  my-3" id="nav">
                     <div class="container">
                         <Link to="/" id="navbar">Home</Link>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,11 +26,7 @@ const Layout = () => {
                                     <Link to="/standard" id="navbar">Standard Calculator</Link>
                                 </li>
                             </ul>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <Link to="/scientific" id="navbar">Scientific Calculator</Link>
-                                </li>
-                            </ul>
+                             
                         </div>
                     </div>
                 </nav>
